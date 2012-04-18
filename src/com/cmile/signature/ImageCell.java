@@ -1,5 +1,8 @@
 package com.cmile.signature;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import android.graphics.Bitmap;
 
 public class ImageCell {
@@ -131,7 +134,30 @@ public class ImageCell {
 		return centerOfGravity;
 	}
 	
+	public int getPixelCount(){
+		
+		return xPixels.length;
+		
+	}
 	
+	
+	public List<ImageCell> split(){
+		List<ImageCell> cells = new ArrayList<ImageCell>(4);
+		
+		
+		
+		
+		for(int i =1; i < getPixelCount(); i++){
+			
+			
+		}
+		
+		
+		
+		
+		return cells;
+		
+	}
 	
 	
 	
